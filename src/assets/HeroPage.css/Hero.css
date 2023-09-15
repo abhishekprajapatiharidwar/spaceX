@@ -1,0 +1,80 @@
+.Hero{
+    background-color:black;
+    height: max-content;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards; 
+}
+
+.HeroSection{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin: 1rem;
+    color: white;
+    padding: 2rem;
+}
+
+.HeroSection iframe{
+width: 100%;
+height: 300px;
+}
+#HeroText{
+    width: 60%;
+}
+
+#HeroText h1{
+    font-size: 2rem;
+}
+
+#HeroVideo{
+    padding: 0;
+}
+
+/* Responsive styles for smaller screens  */
+@media screen and (max-width: 768px) {
+    .Hero {
+      flex-direction: column; /* Stack content vertically */
+      padding: 1rem;
+    }
+  
+    .HeroSection {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    #HeroText {
+      width: 80%;
+    }
+  
+    #HeroText h1 {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+    .HeroSection iframe{
+        width: 100%;
+        height: 200px;
+        }
+  }
+
+
+  /* Hero.css */
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+.Hero.show {
+    opacity: 1;
+  }
+
+  .HeroLanding{
+    background-color: black;
+  }
+  
