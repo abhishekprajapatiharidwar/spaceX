@@ -1,21 +1,20 @@
 .Hero{
-    background-color:black;
     height: max-content;
     display: flex;
     padding: 2rem;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: slideIn 1s ease-in-out forwards; 
+    animation: slideIn 1s ease-in-out forwards;  
 }
 
 .HeroSection{
-    background-color: black;
     height: 100%;
     width: 50%;
     margin: 1rem;
     color: white;
     padding: 2rem;
+  margin-top: 2rem;
 }
 
 .HeroSection iframe{
@@ -24,6 +23,7 @@ height: 300px;
 }
 #HeroText{
     width: 60%;
+    background-color: rgba(0, 0, 0, 0.737);
 }
 
 #HeroText h1{
@@ -75,6 +75,8 @@ height: 300px;
   }
 
   .HeroLanding{
-    background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/53084.jpg");
+  background-size: contain;
+  background-position: center;
   }
   

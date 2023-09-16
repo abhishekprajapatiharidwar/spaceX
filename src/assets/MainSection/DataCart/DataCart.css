@@ -1,0 +1,53 @@
+.Cart{
+    height: 2in;
+    width: 2in;
+   background-image: url("https://aviationweek.com/sites/default/files/2021-02/spacexdragoncapsule_0.jpg");
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-position: center;
+   margin: 1rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.Cart h1{
+    color: black;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 0.2rem;
+    position: relative;
+    top:40px;
+}
+.Cart:hover{
+box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.76);
+}
+
+
+/* Pagination button styles */
+.Pagination button {
+    padding: 8px 16px; /* Add padding for button size */
+    margin: 4px; /* Add margin for spacing between buttons */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add button border radius */
+    cursor: pointer; /* Add pointer cursor */
+  }
+  
+  .Pagination button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Disable styles for disabled buttons */
+  .Pagination button:disabled {
+    background-color: #ccc; /* Grey background for disabled buttons */
+    color: #666; /* Darker text color for disabled buttons */
+    cursor: not-allowed; /* Disable pointer cursor */
+  }
+  

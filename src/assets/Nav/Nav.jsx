@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <>
-      <header className="bg-black p-4">
+      <header className="bg-black p-4" id="nav">
         <nav className="container mx-auto flex flex-wrap justify-between items-center">
           <div className="flex items-center">
             {/* Centered Logo */}
