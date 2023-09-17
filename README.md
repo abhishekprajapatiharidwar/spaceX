@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 - Clone the project repository to your local machine using Git:
    ```bash
-  git clone https://github.com/your-username/your-project-name.git
+  git clone https://github.com/abhishekprajapatiharidwar/spaceX
    ```
 - To access and use this project, you can simply visit the hosted website using the following link:
 [SpaceXCapsules](https://spacexcap.netlify.app/)
