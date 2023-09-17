@@ -1,0 +1,58 @@
+/* Styling for the main section */
+.Main {
+  height: max-content; /* Set the height to expand with content */
+  background-color: black; /* Background color */
+  padding: 1rem; /* Padding around the content */
+}
+
+/* Styling for the main section's heading */
+.Main h1 {
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Font size */
+  text-align: center; /* Center-align the text */
+}
+
+/* Styling for the display area of items */
+.DisplayArea {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Media query for screens with a maximum width of 1362px */
+@media (max-width: 1362px) {
+  .DisplayArea {
+    grid-template-columns: repeat(4, 0.5fr); /* 4 columns with 0.5 fractional units */
+  }
+}
+
+/* Media query for screens with a maximum width of 900px */
+@media (max-width: 900px) {
+  .DisplayArea {
+    grid-template-columns: repeat(2, auto); /* 2 columns with auto width */
+  }
+}
+
+/* Media query for screens with a maximum width of 454px */
+@media (max-width: 454px) {
+  .DisplayArea {
+    grid-template-columns: repeat(1, auto); /* 1 column with auto width */
+  }
+}
+
+/* Styling for the 'no data' image */
+#nodata {
+  background-image: url("../Nodata.svg"); /* Background image URL */
+  height: 250px; /* Fixed height */
+  width: 250px; /* Fixed width */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image repetition */
+  background-size: contain; /* Scale the background image to fit */
+}
+
+/* Styling for the 'no data' message container */
+.NodataClass {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+}
