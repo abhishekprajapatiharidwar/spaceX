@@ -2,6 +2,22 @@
 Welcome to the SpaceXCapsules Information and Filtering project! This project is designed to provide you with a comprehensive overview of SpaceX capsules and their missions, with the added functionality of filtering the data according to various criteria. Additionally, we have implemented responsive design to ensure a seamless user experience across different devices. Furthermore, we have incorporated API authentication to securely connect our application to SpaceX data using Express.js and Node.js.
 
 
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/dcXndmn/Screenshot-52.png)
+
+![App Screenshot](https://i.ibb.co/kHR6Q3S/Screenshot-53.png)
+
+![App Screenshot](https://i.ibb.co/S6XSjB7/Screenshot-54.png)
+
+
+## Video Link 
+https://drive.google.com/file/d/1vFYaXNwYe6czGZrJgf3P43aqDSxQtz-n/view?usp=sharing
+
+
+
+
+
 ## Features
 - **Capsule Information:** Access detailed information about SpaceX capsules, including their names, types, and launch dates.
 - **Filtering:** Easily filter capsule information based on criteria such as capsule type, launch date, and mission status to find the data you need quickly.
