@@ -23,7 +23,10 @@
 /* Media query for screens with a maximum width of 1362px */
 @media (max-width: 1362px) {
   .DisplayArea {
-    grid-template-columns: repeat(4, 0.5fr); /* 4 columns with 0.5 fractional units */
+    grid-template-columns: repeat(
+      4,
+      0.5fr
+    ); /* 4 columns with 0.5 fractional units */
   }
 }
 
@@ -51,6 +54,17 @@
   background-size: contain; /* Scale the background image to fit */
 }
 
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  #nodata {
+    height: 300px;
+    width: 300px;
+  }
+
+  .DisplayArea {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(5, 1fr); /* 4 equal-width columns */
+  }
+}
 /* Styling for the 'no data' message container */
 .NodataClass {
   display: flex; /* Use flexbox for layout */

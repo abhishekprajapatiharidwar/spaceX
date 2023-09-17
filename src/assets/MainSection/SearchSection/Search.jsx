@@ -61,7 +61,7 @@ function Search() {
           onChange={(e) => setStatus(e.target.value)}
           className="border rounded px-4 py-2 w-full sm:w-auto hover:bg-black hover:text-white"
         >
-          <option value="">Select Status</option>
+          <option value="">All Status</option>
           <option value="active">Active</option>
           <option value="retired">Retired</option>
           <option value="unknown">Unknown</option>
@@ -71,6 +71,7 @@ function Search() {
         {/* Input for original launch date */}
         <input
           type="date"
+          id="dateholder"
           name="originalLaunch"
           value={originalLaunch}
           placeholder="Original Launch Date"
@@ -85,7 +86,7 @@ function Search() {
           onChange={(e) => setType(e.target.value)}
           className="border rounded px-4 py-2 w-full sm:w-auto hover:bg-black hover:text-white"
         >
-          <option value="">Select Type</option>
+          <option value="">All Type</option>
           <option value="Dragon 1.0">Dragon 1.0</option>
           <option value="Dragon 1.1">Dragon 1.1</option>
           <option value="Dragon 2.0">Dragon 2.0</option>
