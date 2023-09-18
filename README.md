@@ -39,6 +39,8 @@ https://drive.google.com/file/d/1vFYaXNwYe6czGZrJgf3P43aqDSxQtz-n/view?usp=shari
 
 **Server:** Node, Express for API Authentication
 
+**Testing:** JEST, Babel 
+
 ## Deployment
 
 To deploy this project run
