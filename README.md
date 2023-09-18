@@ -24,6 +24,7 @@ https://drive.google.com/file/d/1vFYaXNwYe6czGZrJgf3P43aqDSxQtz-n/view?usp=shari
 - **Responsive Design:** Enjoy a consistent and user-friendly experience across different devices, including desktops, tablets, and smartphones.
 - **API Authentication:** We have implemented secure API authentication using Express.js and Node.js to ensure that the data we provide is up-to-date and accurate.
 - **Pagination:** To enhance user experience and manage large datasets effectively, our project includes pagination. Users can navigate through capsule information one page at a time, ensuring that the content remains organized and easy to access.
+- **Test Case Generation Wizard:** Create an intuitive wizard for effortlessly generating Jest test cases with Babel transpilation settings, allowing users to specify inputs and expected outcomes.
 
 
 ## Tech-Stack
